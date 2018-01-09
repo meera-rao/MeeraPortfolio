@@ -50,14 +50,17 @@ min-height: 500px;
 }
 
 .about{
-margin-top: 20px;
-background-color: #FACC2E;
 min-height: 50px;
+}
+
+.my-details{
+  background-color: #FACC2E;
 }
 
 .about h4{
   padding-top: 20px;
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .about img{
@@ -69,12 +72,17 @@ min-height: 50px;
 }
 
 .about p{
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .container{
   min-height: 600px;
   width: 1000px;
+}
+
+.yellow-back{
+  background-color: #FACC2E;
 }
 
 .about .container{
@@ -196,6 +204,23 @@ nav ul li a.active-page{
 
 .cs-heading h5{
   padding-top: 10px;
+}
+
+.contact{
+min-height: 70px;
+}
+
+.contact h4{
+padding-bottom: 10px;
+border-bottom: 2px solid #FACC2E;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.contact a{
+color: #3cb8c4;
 }
 
 .hero-image-kf{
