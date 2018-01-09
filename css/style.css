@@ -52,20 +52,33 @@ min-height: 500px;
 .about{
 margin-top: 20px;
 background-color: #FACC2E;
+min-height: 50px;
 }
 
 .about h4{
-  padding-top: 120px;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 .about img{
   padding-top: 0;
+  padding-bottom: 0;
   margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.about p{
+  padding-left: 30px;
 }
 
 .container{
   min-height: 600px;
   width: 1000px;
+}
+
+.about .container{
+min-height: 90px;
 }
 
 .projects .container{
@@ -185,9 +198,7 @@ nav ul li a.active-page{
   padding-top: 10px;
 }
 
-.about{
-  height: 80vh;
-}
+
 
 .hero-image-kf{
   height: 80vh;
@@ -419,7 +430,5 @@ ul{
 
 
 @media (max-width:600px)  {
-  body{
-    background-color: red;
-  }
+
 }
