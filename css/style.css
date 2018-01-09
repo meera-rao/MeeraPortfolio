@@ -50,8 +50,17 @@ min-height: 500px;
 }
 
 .about{
-margin-top: 50px;
-padding-top: 20px;
+margin-top: 20px;
+background-color: #FACC2E;
+}
+
+.about h4{
+  padding-top: 120px;
+}
+
+.about img{
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .container{
@@ -123,13 +132,19 @@ h4{
 
 h5{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h6{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
+}
+
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-align: left;
 }
 
 main.cs-nav{
@@ -161,11 +176,6 @@ nav ul li a.active-page{
   min-height: 80px;
 }
 
-.hero-image{
-max-width: 100%;
-border: 0;
-}
-
 .cs-heading h3{
   padding-bottom: 10px;
   border-bottom: 2px solid #FACC2E;
@@ -177,19 +187,18 @@ border: 0;
 
 .about{
   height: 80vh;
-  background-image: url("../images/about-me-image.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.7;
 }
 
-.hero-image{
+.hero-image-kf{
   height: 80vh;
   background-image: url("../images/kf-hero-image2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero-image-chippin{
+  height: 90vh;
 }
 
 .cs-details h5{
@@ -210,6 +219,14 @@ border: 0;
   min-height: 100px;
 }
 
+.summary ul li{
+  padding-left: 30px;
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 200%;
+}
+
 .summary{
 min-height: 150px;
 }
@@ -217,8 +234,15 @@ min-height: 150px;
 .research{
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #f0f0f0;
   min-height: 100px;
+}
+
+.goal ul li{
+  padding-left: 30px;
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 150%;
 }
 
 .research ul li{
@@ -235,10 +259,26 @@ text-align: center;
 }
 
 .user-quotes h6{
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   padding-bottom: 20px;
   padding-top: 20px;
+  line-height: 150%;
+}
+
+.iterations .user-quotes h6{
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 10px;
+  padding-top: 0;
+  line-height: 150%;
+}
+
+.user-comments h6{
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .key-details{
@@ -290,10 +330,31 @@ img{
   line-height: 150%;
 }
 
+.visual-design{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.visual-design h6{
+padding-top: 30px;
+text-align: center;
+}
+
+.visual-design ul li{
+  padding-left: 50px;
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 200%;
+}
+
+.visual-design img{
+padding-top: 0;
+}
+
 .develop{
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #f0f0f0;
 }
 
 .develop h6{
@@ -301,12 +362,14 @@ padding-top: 30px;
 text-align: center;
 }
 
-.develop .wireframes{
-  width: 70%
-}
-
 .develop img{
   width: 100%
+}
+
+.develop .iterations h5{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
 }
 
 .conclusion .container{
@@ -318,6 +381,15 @@ text-align: center;
   font-style: italic;
   padding-bottom: 20px;
   padding-top: 20px;
+  line-height: 150%;
+}
+
+.conclusion ul li{
+  padding-left: 50px;
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 200%;
 }
 
 .cs-other{
@@ -341,11 +413,6 @@ text-align: center;
 }
 
 ul{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 18px;
-}
-
-p{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
 }
