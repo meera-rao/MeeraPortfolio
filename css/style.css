@@ -14,7 +14,7 @@
 
 main.home_index{
   height: 100vh;
-  background-image: url("../images/background5.jpg");
+  background-image: url("../images/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,14 +53,11 @@ min-height: 500px;
 min-height: 50px;
 }
 
-.my-details{
-  background-color: #FACC2E;
-}
 
 .about h4{
   padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 60px;
+  padding-right: 80px;
 }
 
 .about img{
@@ -72,8 +69,8 @@ min-height: 50px;
 }
 
 .about p{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 60px;
+  padding-right: 80px;
 }
 
 .container{
@@ -83,6 +80,11 @@ min-height: 50px;
 
 .yellow-back{
   background-color: #FACC2E;
+  min-height: 50px;
+}
+
+.me{
+min-height: 50px;
 }
 
 .about .container{
@@ -456,5 +458,7 @@ ul{
 
 
 @media (max-width:600px)  {
+
+  }
 
 }
