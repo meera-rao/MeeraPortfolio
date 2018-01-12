@@ -69,13 +69,14 @@ nav {
           font-size: 1.25em; } }
 
 .section {
-  padding: 0; }
+  padding-top: 50px;
+  }
   .section#home {
     padding: 0;
     margin: 0;
     top: 0;
     width: 100%;
-    min-height: 540px;
+    min-height: 500px;
     position: absolute;
     z-index: -1; }
     @media only screen and (min-width: 993px) {
@@ -88,10 +89,10 @@ nav {
         position: relative;
         width: 80%;
         margin: 0 auto;
-        margin-top: 100px; } }
+        margin-top: 10px; } }
   @media only screen and (min-width: 993px) {
     .section#intro-banner .section {
-      margin-top: 150px; } }
+      margin-top: 10px; } }
   .section#intro-banner .card-wrapper {
     width: 100%;
     position: relative;
@@ -101,7 +102,7 @@ nav {
     @media only screen and (max-width: 992px) {
       .section#intro-banner .card-wrapper {
         padding: 0;
-        min-height: 350px; } }
+        min-height: 250px; } }
     @media only screen and (min-width: 993px) {
       .section#intro-banner .card-wrapper {
         width: 700px; } }
@@ -111,8 +112,7 @@ nav {
     height: 100%;
     margin: 0;
     background-color: #FACC2E;
-    -webkit-box-shadow: none;
-    box-shadow: none; }
+    box-shadow: 2px 7px 21px 0px rgba(110,100,110,1)}
     @media only screen and (max-width: 992px) {
       .section#intro-banner .card-yellow {
         padding: 6% 8% 0% 8%;
@@ -143,7 +143,7 @@ nav {
           font-size: 22px; } }
     @media only screen and (min-width: 993px) {
       .section#intro-banner .card-blue {
-        width: 800px;
+        width: 700px;
         bottom: 70px; }
         .section#intro-banner .card-blue .card-content {
           padding: 0; }
@@ -154,6 +154,9 @@ nav {
     .section#intro-banner.parallax-container {
       height: 100vh; } }
   @media only screen and (max-width: 992px) {
+    .section#intro-banner.parallax-container {
+      height: 150vh; } }
+  @media only screen and (max-width: 992px) {
     .section#projects .project {
       position: relative;
       margin: 0 auto;
@@ -161,7 +164,7 @@ nav {
       box-sizing: border-box; } }
   @media only screen and (min-width: 993px) {
     .section#projects .project {
-      margin: 150px 0; } }
+      margin-top: 100px 0; } }
   .section#projects .project-description, .section#projects .project-item {
     padding: 6% 0 8% 0; }
   @media only screen and (max-width: 992px) {
@@ -175,7 +178,6 @@ nav {
     width: 100%; }
   .section#about .card {
     margin: 0;
-    background-color: #FACC2E;
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -192,9 +194,12 @@ nav {
         align-items: center; } }
     .section#about .card-image {
       height: 100%;
-      background-color: #f2f2f2; }
+      }
       .section#about .card-image img {
-        margin: 0 auto; }
+        margin: 0 auto;
+        -webkit-box-shadow: 2px 7px 21px 0px #6e646e;
+        box-shadow: 2px 7px 21px 0px #6e646e;
+        }
       @media only screen and (max-width: 992px) {
         .section#about .card-image {
           text-align: center;
@@ -202,10 +207,14 @@ nav {
           width: initial;
           margin: 0 -0.75rem; }
           .section#about .card-image img {
-            width: 60%; } }
+            width: 60%;
+            -webkit-box-shadow: 2px 7px 21px 0px #6e646e;
+            box-shadow: 2px 7px 21px 0px #6e646e} }
       @media only screen and (min-width: 993px) {
         .section#about .card-image img {
-          max-width: 325px; } }
+          max-width: 325px;
+          -webkit-box-shadow: 2px 7px 21px 0px #6e646e;
+          box-shadow: 2px 7px 21px 0px #6e646e} } }
     @media only screen and (min-width: 993px) {
       .section#about .card-content {
         margin: 25px 50px; } }
@@ -237,13 +246,17 @@ nav {
     color: #3cb8c4; }
 
 footer.page-footer {
-  padding: 50px 0 50px;
-  background-color: #fff; }
+  background-color: #E9E8E4;}
+
 
 .parallax {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background2.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.section#contact{
+  background-color:#E9E8E4;
+}

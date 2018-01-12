@@ -85,7 +85,7 @@ min-height: 90px;
 }
 
 .projects .container{
-  min-height: 470px;
+  min-height: 400px;
 }
 
 .projects .container h4{
@@ -188,8 +188,6 @@ nav .brand-logo, nav ul a{
   padding-top: 10px;
 }
 
-
-
 .hero-image-kf{
   height: 80vh;
   background-image: url("../images/kf-hero-image2.png");
@@ -220,7 +218,7 @@ nav .brand-logo, nav ul a{
 }
 
 .grey-back{
-  background-color: #f0f0f0;
+  background-color: #E9E8E4;
 }
 
 .summary ul li{
@@ -418,11 +416,4 @@ text-align: center;
 
 ul{
   font-size: 18px;
-}
-
-
-@media (max-width:600px)  {
-
-  }
-
 }
