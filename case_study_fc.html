@@ -1,36 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Meera Rao | UX Portfolio</title>
-    <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<html lang="en">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Meera Rao | UX Portfolio</title>
+  
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./script/script.js"></script>
-  </head>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fix.css">
 
-  <body>
-    <main class="cs-nav">
-      <div class="navbar-fixed">
-       <nav>
-         <div class="nav-wrapper">
-           <a href="index.html" class="brand-logo">MEERA RAO</a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="index.html">HOME</a></li>
-             <li><a href="index.html" class='active-page'data-href="projects">PROJECTS</a></li>
-             <li><a href="index.html#about-me-section" data-href="about">ABOUT</a></li>
-             <li><a href="index.html#contact-me-section" data-href="about">CONTACT</a></li>
-           </ul>
-         </div>
-       </nav>
-     </div>
-   </main>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav id="navigation">
+      <div class="nav-wrapper">
+        
+        <a id="logo-container" href="index.html" class="brand-logo">MEERA RAO</a>
+        
+        
+        <ul id="nav-desctop" class="right hide-on-med-and-down">
+          <li><a class="sidenav-close" href="index.html#home">HOME</a></li>
+          <li><a class="sidenav-close" href="index.html#projects">PROJECTS</a></li>
+          <li><a class="sidenav-close" href="index.html#about">ABOUT</a></li>
+          <li><a class="sidenav-close" href="index.html#contact">CONTACT</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a class="sidenav-close" href="index.html#home">HOME</a></li>
+          <li><a class="sidenav-close" href="index.html#projects">PROJECTS</a></li>
+          <li><a class="sidenav-close" href="index.html#about">ABOUT</a></li>
+          <li><a class="sidenav-close" href="index.html#contact">CONTACT</a></li>
+        </ul>
+
+        
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger right">
+          <i class="material-icons">menu</i>
+        </a>
+        
+      </div>
+    </nav>
+  </div> <!-- / Navbar -->
 
      <section class="cs-heading">
          <div class="row">
@@ -43,8 +60,8 @@
      <section class="hero-image-fc">
        <div class="container">
          <div class="row hero-image-fc">
-           <div class="center-align col12">
-             <img src="./images/fc-hero-image-trans2.png" alt="Friend City hero image" class="fc-hero">
+           <div class="center-align col l12">
+             <img src="./images/fc-hero-image-trans2.png" alt="Friend City hero image" class="fc-hero  responsive-img">
            </div>
         </div>
       </div>
@@ -64,27 +81,28 @@
          </div>
 
            <div class="container key-details">
-               <div class="row">
-               <div class="col l4 m4 s4">
+             <div class="row">
+               <div class="col l4 s12">
                  <h6>DURATION:</h6>
-                 <p>2 week design sprint</p>
+                 <p class="center">2 week design sprint</p>
                </div>
-               <div class="col l4 m4 s4">
+               <div class="col l4 s12">
                  <h6>MY ROLE:</h6>
                  <ul>
-                   <li>User Research, Wireframing & Prototyping, Visual Design, Usability Testing</li>
+                   <li>Project Coordination, Design Strategy & Wireframing, Usability Testing</li>
+                   <li>(Team of 3)</li>
                  </ul>
                </div>
-                <div class="col l4 m4 s4">
+                <div class="col l4 s12">
                  <h6>METHODOLOGY:</h6>
                  <div class="tool-list">
                    <ul>
                      <li>User Research</li>
-                     <li>Participatory Design</li>
-                     <li>Sketching & Wireframing</li>
+                     <li>Contextual Enquiry & User Testing</li>
+                     <li>Client & Competitive Analysis</li>
                      <li>Rapid Ideation & Wireframing</li>
-                     <li>Digital Prototyping</li>
-                     <li>Visual Design</li>
+                     <li>Digital Prototyping (low- to high-fidelity)</li>
+                     <li>Preparation of Design Specifications</li>
                    </ul>
                  </div>
                 </div>
@@ -119,14 +137,14 @@
         <div class="row research">
           <div class="container">
             <div class="row">
-            <div class="center-align col12">
+            <div class="center-align col l12">
              <h4>RESEARCH & DISCOVERY STAGE</h4>
              <h6>USER INTERVIEWS - MEET IRENE</h6>
              <p>She’s new to London and lives with her boyfriend. She loves books (reading and writing), interesting conversations and deep connections with friends.</p>
              <p>My goal was to identify a current problem without a solution in her life that could be the focus of my app.</p>
              <p>We had many chats about her life and interests. Back home in Barcelona, Irene had lots of childhood friends and since she moved to London, she has found it difficult to make new friends who she can connect with. She has gone to meetups and writers’ groups hoping to meet people with common interests but being quite shy, this hasn’t quite worked out for her.</p>
              <p>She dislikes big groups and would love to have more opportunities to connect with people on an individual basis.</p>
-             <img src="./images/fc-user-interview.jpg" alt="Irene interview">
+             <img src="./images/fc-user-interview.jpg" class="responsive-img" alt="Irene interview">
              <div class="user-quotes col l12">
                <h6>"I don’t like big crowds, and small talk"</h6>
                <h6>"I’d love a Tinder for Friends!"</h6>
@@ -139,7 +157,7 @@
               <p>I spoke to Irene again to delve deeper into her situation and better understand her problem. Dipping my toes into the psychology of introverts, adjusting to life in a new city and the social dynamics was fascinating.</p>
               <p>Putting pen to paper, I built a concept map around my user interviews to help me visually organise the user insights by theme.</p>
               <p>This highlighted the user motivations and the emotional aspects of the problem and informed what features I could potentially include in my app.</p>
-                <img src="./images/fc-concept-map.jpg" alt="">
+                <img src="./images/fc-concept-map.jpg" alt="" class="responsive-img">
               </div>
             </div>
           </div>
@@ -161,8 +179,8 @@
                  <div class="row">
                      <h6>STORYBOARDING</h6>
                      <p>A simple visual demonstration of my user’s journey through a storyboard helped capture the problem and identify a solution and the desired outcome for Irene.</p>
-                     <div class="col l10 offset-l1">
-                     <img src="./images/fc-storyboard.png" alt="FC storyboard">
+                     <div class="col l10 offset-l1 s12">
+                     <img src="./images/fc-storyboard.png" alt="FC storyboard" class="responsive-img">
                      </div>
                  </div>
 
@@ -175,7 +193,7 @@
                   <h6>USER FLOW</h6>
                   <p>Building a logical user flow helped move the process forward and start visualising the various steps in the app process.</p>
                   <p>I revised this a number of times to reflect the user decisions and keep it simple.</p>
-                  <img src="./images/fc-user-flow.jpg" alt="FC user flow">
+                  <img src="./images/fc-user-flow.jpg" alt="FC user flow" class="responsive-img">
                 </div>
 
                 </div>
@@ -233,10 +251,10 @@
              </div>
              </div>
 
-        <div class="row visual-design">
+        <div class="visual-design">
           <div class="container">
              <div class="row">
-               <div class="center-align col l12">
+               <div class="center-align col l12 s12">
                 <h4>DEVELOPING THE SOLUTION - VISUAL DESIGN</h4>
                   <p>With the app features and flow in place, the next challenge was to apply newly learned principles on typography, colour, shapes, iconography and forms to our screen design. This was combined with an understanding of the app’s brand philosophy and usability.</p>
                  <h6>BUILDING A BRAND PERSONALITY</h6>
@@ -254,17 +272,17 @@
                      <li>Reese Witherspoon, Winona Ryder, Hugh Laurie — friendly, warm and great conversationalists (I think!)</li>
                      <li>Mini Cooper — urban and convenient</li>
                    </ul>
-                   <img src="./images/fc-brand-affinities.png" alt="FC brand affinities">
+                   <img src="./images/fc-brand-affinities.png" alt="FC brand affinities" class="responsive-img">
 
                    <h6>MOOD BOARD</h6>
                     <p>Once I had a good idea of my brand’s personality, I began developing a visual style that would communicate the brand attributes and bring out the user’s emotional experience.</p>
                     <p>I began pulling together a mood board to help me visualise the user’s feelings, moods and behaviour. It also provided inspiration for various visual components including a colour scheme.</p>
-                    <img src="./images/fc-moodboard.png" alt="FC moodboard">
+                    <img src="./images/fc-moodboard.png" alt="FC moodboard" class="responsive-img">
                     <p>I picked out colours from my mood board that communicated the brand’s personality and tested them out on some low-fidelity screen sketches to see how they came together.</p>
 
                   <div class="row">
-                    <div class="col l4 offset-l4">
-                      <img src="./images/fc-colour-palette.png" alt="FC colours">
+                    <div class="col l4 offset-l4 s12">
+                      <img src="./images/fc-colour-palette.png" alt="FC colours" class="responsive-img">
                     </div>
                   </div>
 
@@ -272,8 +290,8 @@
                      <p>As we began understanding the fundamentals of design language, I began researching style guides published by companies like Google, AirBnB and BBC.</p>
                      <p>I pulled together a style guide for the Friend City app which helped me ensure visual consistency and structure in the visual design across the screens.</p>
                      <p>Components of the style guide included typography (and fonts), colours, buttons, input fields, logo, alignment and layout.</p>
-                     <div class="col l10 offset-l1">
-                       <img src="./images/fc-style-guide.png" alt="FC style guide">
+                     <div class="col l10 offset-l1 s12">
+                       <img src="./images/fc-style-guide.png" alt="FC style guide" class="responsive-img">
                      </div>
 
                     <h6>SCREEN MOCK-UPS</h6>
@@ -290,17 +308,17 @@
                           <li>A “layered” look for the individual profile page with the background matches faded back</li>
                         </ul>
 
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-home1.png" alt="Home 1">
+                      <div class="col l4 s8 offset-s2">
+                        <img src="./images/fc-home1.png" alt="Home 1" class="responsive-img">
                       </div>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-profile-matches1.png" alt="Matches 1">
+                      <div class="col l4 s8 offset-s2">
+                        <img src="./images/fc-profile-matches1.png" alt="Matches 1" class="responsive-img">
                       </div>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-profile1.png" alt="Profile 1">
+                      <div class="col l4 s8 offset-s2">
+                        <img src="./images/fc-profile1.png" alt="Profile 1" class="responsive-img">
                       </div>
                       <p>Feedback on the above was mixed:</p>
-                    <div class="user-quotes col l12">
+                    <div class="user-quotes col l12 s12">
                       <h6>"I love the first image! So hopeful and warm."</h6>
                       <h6>"The other two screens feel rather cold."</h6>
                       <h6>The font looks chunky</h6>
@@ -309,15 +327,19 @@
 
                       <h6>SECOND ITERATION</h6>
                         <p>I switched to the Roboto Condensed typeface for my next iteration. Other changes included background image, transparency variations, button placements, etc.</p>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-home2.png" alt="Home 2">
+                        <div class="row">
+                      <div class="col l4 s8 offset-s2">
+                        <img src="./images/fc-home2.png" alt="Home 2" class="responsive-img">
                       </div>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-profile-matches2.png" alt="Matches 2">
+                      <div class="col l4 s8 offset-s2">
+                        <img src="./images/fc-profile-matches2.png" alt="Matches 2" class="responsive-img">
                       </div>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-profile3.png" alt="Profile 3">
+                      <div class="col l4 s8 offset-s2">
+                        <img src="./images/fc-profile3.png" alt="Profile 3" class="responsive-img">
                       </div>
+                          
+                        </div>
+
                       <p>The feedback on these was more favourable but the background image for the 2 latter screens was still perceived as being cold. I continued tweaking and testing both the visual impact and screen readability and layout.</p>
 
                       <h6>FINAL MOCK-UPS</h6>
@@ -327,15 +349,16 @@
                           <li>A “warmer” background image for the next 2 screens with orange/red tones</li>
                           <li>Amended buttons in the third screen with shadows to remove the slight “blurring” effect from the orange button on teal background.</li>
                         </ul>
-
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-home3.png" alt="Home 3">
+                      <div class="row">
+                      <div class="col s8 offset-s2">
+                        <img src="./images/fc-home3.png" alt="Home 3" class="responsive-img">
                       </div>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-profile-matches3.png" alt="Matches 3">
+                      <div class="col s8 offset-s2">
+                        <img src="./images/fc-profile-matches3.png" alt="Matches 3" class="responsive-img">
                       </div>
-                      <div class="col l4 m4 s4">
-                        <img src="./images/fc-profile3.png" alt="Profile 3">
+                      <div class="col s8 offset-s2">
+                        <img src="./images/fc-profile3.png" alt="Profile 3" class="responsive-img">
+                      </div>
                       </div>
                       <p>I tested the final screens on a mobile phone and the user feedback was largely positive. Most people felt the design communicated the friendly, urban brand personality.</p>
 
@@ -345,10 +368,10 @@
            </div>
         </div>
 
-         <div class="row conclusion">
+         <div class="conclusion">
            <div class="container conclusion">
              <div class="row reflections-fc">
-               <div class="center-align col l12">
+               <div class="center-align col l12 s12">
                  <h4>REFLECTIONS</h4>
                  <p>While the project was a steep learning curve for me personally, it was an incredible learning experience, and watching my design being born and evolve was amazing.</p>
                  <p>Building my user interviewing skills and combining fundamental visual design principles with many user tests and iterations helped my design process immensely.</p>
@@ -371,50 +394,70 @@
             </div>
       </section>
 
-      <section class="cs-other">
-        <div class="container">
-          <div class="row">
-            <div class="center-align col l12">
-              <h4>OTHER PROJECTS</h4>
-            </div>
-          </div>
-          <div class="row">
-
-            <div class="col l6 m4 s4">
-              <a href="case_study_kf.html">
-                <h6>Knight Frank  |  New Tenancy Process App</h6>
-               </a>
-              <a href="case_study_kf.html">
-                <img src="./images/kf-hero-image1.png" alt="Knight Frank hi-fi prototype" class="col l12">
-               </a>
-            </div>
-
-            <div class="col l6 m4 s4">
-              <a href="case_study_fc.html">
-              <h6>Chippin  |  Re-designing how we share costs</h6>
-              </a>
-              <a href="case_study_chippin.html">
-              <img src="./images/chippin-hero-image-trans.png" alt="Chippin hi-fi prototype" class="col l12">
-              </a>
-            </div>
-
-            </div>
-          </div>
-      </section>
-
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="row social-links">
-              <div class="col l4 offset-l4 center-align">
-                <a href="https://twitter.com/rao_mee"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/meera-rao/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                <a href="https://medium.com/@mee_rao"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-              </div>
-              </div>
-          </div>
+<section class="cs-other">
+    <div class="container">
+      <div class="row">
+        <div class="center-align col l12 s12">
+          <h4>OTHER PROJECTS</h4>
         </div>
-      </footer>
-     </main>
+      </div>
+      <div class="row">
 
-     </html>
+        <div class="col l6 s6">
+          <a href="case_study_kf.html">
+            <h6>Knight Frank  |  New Tenancy Process App</h6>
+           </a>
+          <a href="case_study_kf.html">
+            <img class="responsive-img" src="./images/kf-hero-image1.png" alt="Knight Frank hi-fi prototype" class="col l12">
+           </a>
+        </div>
+
+        <div class="col l6 s6">
+          <a href="case_study_fc.html">
+          <h6>Friend City  |  A new way to find friends</h6>
+          </a>
+          <a href="case_study_fc.html">
+          <img class="responsive-img" src="./images/fc-hero-image-trans1.png" alt="Friend City hi-fi prototype" class="col l12">
+          </a>
+        </div>
+
+        </div>
+      </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row center">
+        <div class="col s12">
+          <ul class="social-links">
+            <li>
+              <a href="https://twitter.com/rao_mee">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/meera-rao/">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://medium.com/@mee_rao">
+                <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+          
+      </div>
+    </div>
+  </footer>
+
+  
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="script/materialize.js"></script>
+  <script src="script/init.js"></script>
+</body>
+</html>

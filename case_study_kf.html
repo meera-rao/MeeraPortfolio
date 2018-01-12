@@ -1,36 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Meera Rao | UX Portfolio</title>
-    <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<html lang="en">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Meera Rao | UX Portfolio</title>
+  
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./script/script.js"></script>
-  </head>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fix.css">
 
-  <body>
-    <main class="cs-nav">
-      <div class="navbar-fixed">
-       <nav>
-         <div class="nav-wrapper">
-           <a href="index.html" class="brand-logo">MEERA RAO</a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="index.html">HOME</a></li>
-             <li><a href="index.html" class='active-page'data-href="projects">PROJECTS</a></li>
-             <li><a href="index.html#about-me-section" data-href="about">ABOUT</a></li>
-             <li><a href="index.html#contact-me-section" data-href="about">CONTACT</a></li>
-           </ul>
-         </div>
-       </nav>
-     </div>
-   </main>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav id="navigation">
+      <div class="nav-wrapper">
+        
+        <a id="logo-container" href="index.html" class="brand-logo">MEERA RAO</a>
+        
+        
+        <ul id="nav-desctop" class="right hide-on-med-and-down">
+          <li><a class="sidenav-close" href="index.html#home">HOME</a></li>
+          <li><a class="sidenav-close" href="index.html#projects">PROJECTS</a></li>
+          <li><a class="sidenav-close" href="index.html#about">ABOUT</a></li>
+          <li><a class="sidenav-close" href="index.html#contact">CONTACT</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a class="sidenav-close" href="index.html#home">HOME</a></li>
+          <li><a class="sidenav-close" href="index.html#projects">PROJECTS</a></li>
+          <li><a class="sidenav-close" href="index.html#about">ABOUT</a></li>
+          <li><a class="sidenav-close" href="index.html#contact">CONTACT</a></li>
+        </ul>
+
+        
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger right">
+          <i class="material-icons">menu</i>
+        </a>
+        
+      </div>
+    </nav>
+  </div> <!-- / Navbar -->
 
      <section class="cs-heading">
          <div class="row">
@@ -59,32 +76,33 @@
          </div>
 
            <div class="container key-details">
-               <div class="row">
-               <div class="col l4 m4 s4">
+             <div class="row">
+               <div class="col l4 s12">
                  <h6>DURATION:</h6>
-                 <p>2 week design sprint</p>
+                 <p class="center">2 week design sprint</p>
                </div>
-               <div class="col l4 m4 s4">
+               <div class="col l4 s12">
                  <h6>MY ROLE:</h6>
                  <ul>
                    <li>Project Coordination, Design Strategy & Wireframing, Usability Testing</li>
-                   <li>(Team of 4)</li>
+                   <li>(Team of 3)</li>
                  </ul>
                </div>
-               <div class="col l4 m4 s4">
+                <div class="col l4 s12">
                  <h6>METHODOLOGY:</h6>
                  <div class="tool-list">
                    <ul>
                      <li>User Research</li>
+                     <li>Contextual Enquiry & User Testing</li>
                      <li>Client & Competitive Analysis</li>
-                     <li>Feature Prioritisation</li>
                      <li>Rapid Ideation & Wireframing</li>
-                     <li>Digital Prototyping</li>
+                     <li>Digital Prototyping (low- to high-fidelity)</li>
+                     <li>Preparation of Design Specifications</li>
                    </ul>
                  </div>
+                </div>
                </div>
-               </div>
-           </div>
+             </div>
            </div>
            </div>
 
@@ -115,10 +133,10 @@
              </ul>
              <div class="row">
                <div class="col l6 m6 s6">
-                 <img src="./images/kf-site-visit1.png" alt="KF site visit" class="site1">
+                 <img src="./images/kf-site-visit1.png" alt="KF site visit" class="site1 responsive-img">
                </div>
                <div class="col l6 m6 s6">
-                 <img src="./images/kf-site-visit2.png" alt="KF site visit" class="site2">
+                 <img src="./images/kf-site-visit2.png" alt="KF site visit" class="site2 responsive-img">
              </div>
             </div>
             </div>
@@ -128,8 +146,8 @@
               <h6>COMPETITIVE ANALYSIS</h6>
               <p>For our competitive analysis, we looked at some of Knight Frank’s direct competitors in the industry, including Foxtons, Morgan Randall and Nelsons. Here, we focused on their customer service and digital capabilities.</p>
               <p>We also researched a rental app called Rentr that connects landlords and tenants directly. This app included some key features like digital payments and process tracking which was very useful to us later on in the design process.</p>
-              <div class="center-align col12">
-                <img src="./images/kf-comp-image.png" alt="KF comp analysis" class="comp">
+              <div class="center-align col s12">
+                <img src="./images/kf-comp-image.png" alt="KF comp analysis" class="comp responsive-img">
               </div>
            </div>
 
@@ -143,20 +161,20 @@
               </div>
               <p>We built an Affinity Map of the findings from our user research to understand the underlying themes of users’ experiences.</p>
            </div>
-           <div class="center-align col12">
-             <img src="./images/kf-affinity-map.png" alt="KF affinity map" class="affinity-map">
+           <div class="center-align col s12">
+             <img src="./images/kf-affinity-map.png" alt="KF affinity map" class=" responsive-img affinity-map">
            </div>
            <p>Condensing this further into key insights helped us understand the main pain points that we could work towards addressing in our design solution.</p>
-           <div class="center-align col12">
-             <img src="./images/kf-user-findings.png" alt="KF user findings" class="user-findings">
+           <div class="center-align col s12">
+             <img src="./images/kf-user-findings.png" alt="KF user findings" class="user-findings responsive-img ">
            </div>
 
            <div class="row">
              <h6>MAPPING THE CURRENT USER JOURNEY</h6>
              <p>At this point, I found it useful to build a visual representation of the users’ current journey while completing the required paperwork to rent a new property.</p>
              <p>An Experience Map captured this long arduous process perfectly.</p>
-             <div class="center-align col12">
-               <img src="./images/kf-curr-exp-map.png" alt="KF experience map" class="exp-map">
+             <div class="center-align col s12">
+               <img src="./images/kf-curr-exp-map.png" alt="KF experience map" class="exp-map responsive-img ">
              </div>
            </div>
 
@@ -164,7 +182,7 @@
         </div>
         </div>
 
-        <div class="row define">
+        <div class="define">
           <div class="container">
             <div class="row">
               <div class="center-align col l12">
@@ -176,14 +194,14 @@
 
               <div class="row">
                 <div class="center-align col l12">
-                  <img src="./images/kf-personas.png" alt="KF personas" class="personas">
+                  <img src="./images/kf-personas.png" alt="KF personas" class="personas responsive-img ">
                 </div>
                 <p>From these, we decided to focus on our primary persona Sam because she was an individual renter (Theo was renting with friends, and Tom was an estate agent). As Sam’s persona was drawn from actual user research, it enabled our team to ensure that all design decisions were were user-centric.</p>
               </div>
 
               <div class="row">
                 <div class="center-align col l12">
-                  <img src="./images/kf-sam-persona.png" alt="KF Sam persona" class="sam-persona">
+                  <img src="./images/kf-sam-persona.png" alt="KF Sam persona" class=" responsive-img sam-persona">
                 </div>
                 <p>Sam is tech-savvy and looking forward to moving in to her own flat. She hates clutter and bad customer service. Her motivations are independence and personal growth.</p>
               </div>
@@ -197,16 +215,16 @@
             <div class="row">
               <h6>FEATURE PRIORITISATION</h6>
               <p>The team then came up with a list of features that the solution had to incorporate to create a minimum viable product. We went through a couple of iterations in this feature prioritisation exercise to ensure we focused on what Sam would need to solve her problem.</p>
-              <div class="center-align col12">
-                <img src="./images/kf-features.jpg" alt="KF feature prioritisation" class="features">
+              <div class="center-align col s12">
+                <img src="./images/kf-features.jpg" alt="KF feature prioritisation" class="features responsive-img">
               </div>
             </div>
 
             <div class="row">
               <h6>SAM'S NEW USER JOURNEY</h6>
               <p>With the outline of a solution at hand, we created an updated version of Sam’s user journey in our app. Dividing it into specific sections helped us create workable user flows that we could start sketching screens for.</p>
-              <div class="center-align col12">
-                <img src="./images/kf-updated-user-journey.png" alt="KF updated user journey" class="user-journey">
+              <div class="center-align col s12">
+                <img src="./images/kf-updated-user-journey.png" alt="KF updated user journey" class="user-journey responsive-img">
               </div>
             </div>
 
@@ -296,50 +314,70 @@
         </div>
      </section>
 
-     <section class="cs-other">
-       <div class="container">
-         <div class="row">
-           <div class="center-align col l12">
-             <h4>OTHER PROJECTS</h4>
-           </div>
-         </div>
-         <div class="row">
+<section class="cs-other">
+    <div class="container">
+      <div class="row">
+        <div class="center-align col l12 s12">
+          <h4>OTHER PROJECTS</h4>
+        </div>
+      </div>
+      <div class="row">
 
-           <div class="col l6 m4 s4">
-             <a href="case_study_chippin.html">
-               <h6>Chippin  |  Re-designing how we share costs</h6>
+        <div class="col l6 s6">
+          <a href="case_study_kf.html">
+            <h6>Knight Frank  |  New Tenancy Process App</h6>
+           </a>
+          <a href="case_study_kf.html">
+            <img class="responsive-img" src="./images/kf-hero-image1.png" alt="Knight Frank hi-fi prototype" class="col l12">
+           </a>
+        </div>
+
+        <div class="col l6 s6">
+          <a href="case_study_fc.html">
+          <h6>Friend City  |  A new way to find friends</h6>
+          </a>
+          <a href="case_study_fc.html">
+          <img class="responsive-img" src="./images/fc-hero-image-trans1.png" alt="Friend City hi-fi prototype" class="col l12">
+          </a>
+        </div>
+
+        </div>
+      </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row center">
+        <div class="col s12">
+          <ul class="social-links">
+            <li>
+              <a href="https://twitter.com/rao_mee">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
               </a>
-             <a href="case_study_chippin.html">
-               <img src="./images/chippin-hero-image-trans.png" alt="Chippin hi-fi prototype" class="col l12">
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/meera-rao/">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
               </a>
-           </div>
+            </li>
+            
+            <li>
+              <a href="https://medium.com/@mee_rao">
+                <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+          
+      </div>
+    </div>
+  </footer>
 
-           <div class="col l6 m4 s4">
-             <a href="case_study_fc.html">
-             <h6>Friend City  |  A new way to find friends</h6>
-             </a>
-             <a href="case_study_fc.html">
-             <img src="./images/fc-hero-image-trans1.png" alt="Friend City hi-fi prototype" class="col l12">
-             </a>
-           </div>
+  
 
-           </div>
-         </div>
-     </section>
-
-     <footer>
-       <div class="container">
-         <div class="row">
-           <div class="row social-links">
-             <div class="col l4 offset-l4 center-align">
-               <a href="https://twitter.com/rao_mee"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-               <a href="https://www.linkedin.com/in/meera-rao/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-               <a href="https://medium.com/@mee_rao"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-             </div>
-             </div>
-         </div>
-       </div>
-     </footer>
-    </main>
-
-    </html>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="script/materialize.js"></script>
+  <script src="script/init.js"></script>
+</body>
+</html>

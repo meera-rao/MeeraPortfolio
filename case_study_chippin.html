@@ -1,82 +1,99 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Meera Rao | UX Portfolio</title>
-    <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<html lang="en">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Meera Rao | UX Portfolio</title>
+  
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./script/script.js"></script>
-  </head>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fix.css">
 
-  <body>
-    <main class="cs-nav">
-      <div class="navbar-fixed">
-       <nav>
-         <div class="nav-wrapper">
-           <a href="index.html" class="brand-logo">MEERA RAO</a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="index.html">HOME</a></li>
-             <li><a href="index.html" class='active-page'data-href="projects">PROJECTS</a></li>
-             <li><a href="index.html#about-me-section" data-href="about">ABOUT</a></li>
-             <li><a href="index.html#contact-me-section" data-href="about">CONTACT</a></li>
-           </ul>
-         </div>
-       </nav>
-     </div>
-   </main>
+</head>
 
-     <section class="cs-heading">
-         <div class="row">
-           <div class="center-align col l12">
-             <h3>Re-designing how users share costs : a Chippin case study</h3>
-             <h5>Helping people share the cost of an online purchase with friends & family in a simple and intuitive way</h5>
-         </div>
-      </section>
+<body>
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav id="navigation">
+      <div class="nav-wrapper">
+        
+        <a id="logo-container" href="index.html" class="brand-logo">MEERA RAO</a>
+        
+        
+        <ul id="nav-desctop" class="right hide-on-med-and-down">
+          <li><a class="sidenav-close" href="index.html#home">HOME</a></li>
+          <li><a class="sidenav-close" href="index.html#projects">PROJECTS</a></li>
+          <li><a class="sidenav-close" href="index.html#about">ABOUT</a></li>
+          <li><a class="sidenav-close" href="index.html#contact">CONTACT</a></li>
+        </ul>
 
-     <section class="hero-image-chippin">
-       <div class="container">
-         <div class="row">
-           <div class="center-align col12">
-             <img src="./images/chippin-hero-image-trans.png" alt="Chippin hero image" class="chippin-hero">
-           </div>
-        </div>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a class="sidenav-close" href="index.html#home">HOME</a></li>
+          <li><a class="sidenav-close" href="index.html#projects">PROJECTS</a></li>
+          <li><a class="sidenav-close" href="index.html#about">ABOUT</a></li>
+          <li><a class="sidenav-close" href="index.html#contact">CONTACT</a></li>
+        </ul>
+
+        
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger right">
+          <i class="material-icons">menu</i>
+        </a>
+        
       </div>
-     </section>
+    </nav>
+  </div> <!-- / Navbar -->
 
-     <section class="cs-details">
-       <div class="container-fluid grey-back">
-         <div class="row overview">
-            <div class="container summary">
-              <div class="row">
-                <div class="center-align col l12">
-                  <h4>OVERVIEW</h4>
-                  <p>My team of three worked with a UK fintech company Chippin, who were looking for a simpler and more intuitive way to enable their customers to share the cost of an online purchase with friends & family.</p>
-                  <p>Using agile UX methodology that encompassed contextual user testing and interviews, rapid paper prototyping and usability testing, digital wireframing and visual design, we built and delivered a final high-fidelity design prototype.</p>
-                  <p>We received strong endorsement of our designs and UX process from Chippin’s CEO, COO and CTO, and our design is now on its way to being implemented.</p>
-                </div>
+   <section class="cs-heading">
+       <div class="row">
+         <div class="center-align col l12">
+           <h3>Re-designing how users share costs : a Chippin case study</h3>
+           <h5>Helping people share the cost of an online purchase with friends & family in a simple and intuitive way</h5>
+       </div>
+    </section>
+
+   <section class="hero-image-chippin">
+     <div class="container">
+       <div class="row">
+         <div class="center-align co l12 s12">
+           <img src="./images/chippin-hero-image-trans.png" alt="Chippin hero image" class="chippin-hero responsive-img">
+         </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="cs-details">
+     <div class="container-fluid grey-back">
+       <div class="row overview">
+          <div class="container summary">
+            <div class="row">
+              <div class="center-align col l12">
+                <h4>OVERVIEW</h4>
+                <p>My team of three worked with a UK fintech company Chippin, who were looking for a simpler and more intuitive way to enable their customers to share the cost of an online purchase with friends & family.</p>
+                <p>Using agile UX methodology that encompassed contextual user testing and interviews, rapid paper prototyping and usability testing, digital wireframing and visual design, we built and delivered a final high-fidelity design prototype.</p>
+                <p>We received strong endorsement of our designs and UX process from Chippin’s CEO, COO and CTO, and our design is now on its way to being implemented.</p>
               </div>
             </div>
-           <div class="container key-details">
-               <div class="row">
-               <div class="col l4 m4 s4">
+          </div>
+         <div class="container key-details">
+             <div class="row">
+               <div class="col l4 s12">
                  <h6>DURATION:</h6>
-                 <p>2 week design sprint</p>
+                 <p class="center">2 week design sprint</p>
                </div>
-               <div class="col l4 m4 s4">
+               <div class="col l4 s12">
                  <h6>MY ROLE:</h6>
                  <ul>
                    <li>Project Coordination, Design Strategy & Wireframing, Usability Testing</li>
                    <li>(Team of 3)</li>
                  </ul>
                </div>
-                <div class="col l4 m4 s4">
+                <div class="col l4 s12">
                  <h6>METHODOLOGY:</h6>
                  <div class="tool-list">
                    <ul>
@@ -91,87 +108,92 @@
                 </div>
                </div>
              </div>
+           </div>
+        </div>
+
+        <div class="container goal">
+          <div class="row">
+            <div class="center-align col l12">
+           <h4>PROJECT GOAL</h4>
+           <h6>FOR CHIPPIN :</h6>
+           <p>Chippin’s main objective was to prevent first-time users from dropping off or cancelling a purchase once they had been re-directed from the merchant’s checkout to Chippin’s landing page.</p>
+           <h6>FOR US :</h6>
+           <p>This meant a clear focus on reviewing the user journey on the Chippin site and make this as simple, informative and intuitive as possible.</p>
+           <p>And that’s what we did.</p>
+         </div>
+        </div>
+        </div>
+
+      <div class="row research">
+        <div class="container">
+          <div class="row">
+          <div class="center-align col12">
+           <h4>RESEARCH & DISCOVERY STAGE</h4>
+           <p>We applied the fundamental principles of lean UX to work through the sprint and used the Double Diamond method to structure the process.</p>
+           <h6>COMPETITIVE ANALYSIS</h6>
+           <p>We began looking at some of Chippin’s competitors to get a broad understanding of the landscape, as well as specific insights into key players and their product features.</p>
+           <p>This included players in the traditional payments arena (payment gateways like Paypal), as well as in the shared transactions space (Splitit, Make it Social, etc)</p>
+          </div>
+         </div>
+
+           <div class="row">
+             <div class="col l6 s12">
+               <img src="./images/chippin-comp.png" alt="Chippin competitors" class="comp responsive-img">
              </div>
+             <div class="col l6 s12">
+               <p>Key insights from this exercise were:</p>
+               <ul class="list-with-bullets">
+                 <li>Chippin’s proposition is unique in the marketplace — nobody else did exactly what Chippin was doing</li>
+                 <li>Competitor business models include fundraising, payment gateways and bill splitting</li>
+                 <li>Most competitors needed customer login — the fact that Chippin didn’t was a massive plus for Chippin users</li>
+               </ul>
+              </div>
+            </div>
+
+          <div class="row">
+            <h6>CONTEXTUAL USER RESEARCH</h6>
+            <p>Once a user (the “Instigator”) clicked on the Chippin option on the merchant’s checkout page, they were re-directed to the Chippin landing page where they went through 3 steps:</p>
+              <ul class="list-with-bullets">
+                <li>Add Contributors (who also chip in towards the cost of the purchase)</li>
+                <li>Pay their share</li>
+                <li>Track contributions</li>
+              </ul>
+              <p>We began testing the current Chippin interface and user flow with many users particularly those who had experience of shared purchases. Most tended to be fairly young and tech-savvy.</p>
+            </div>
+
+          <div class="row">
+            <div class="col l6 s12">
+              <img src="./images/chippin-user-icons.png" alt="Chippin user icons" class="user-icons responsive-img">
+            </div>
+            <div class="user-comments col l6 s12">
+              <h6>"I really wish I had this app every time I moved homes!"</h6>
+              <h6>"Every estate agents needs this app."</h6>
+            </div>
           </div>
 
-          <div class="container goal">
-            <div class="row">
-              <div class="center-align col l12">
-             <h4>PROJECT GOAL</h4>
-             <h6>FOR CHIPPIN :</h6>
-             <p>Chippin’s main objective was to prevent first-time users from dropping off or cancelling a purchase once they had been re-directed from the merchant’s checkout to Chippin’s landing page.</p>
-             <h6>FOR US :</h6>
-             <p>This meant a clear focus on reviewing the user journey on the Chippin site and make this as simple, informative and intuitive as possible.</p>
-             <p>And that’s what we did.</p>
-           </div>
-          </div>
+          <div class="row">
+            <p>As highlighted above, most felt that Chippin was solving for a very real customer problem and had a lot going for it, including just a few steps to complete the process and a trusted Stripe payment gateway (for those who knew what Stripe was!).</p>
+            <p>Digging deeper into the level of detail for a first-time user, the interface design, and overall usability, we unearthed lots of inconsistencies and frustrations that were getting in the way of the user journey.</p>
           </div>
 
-        <div class="row research">
-          <div class="container">
-            <div class="row">
-            <div class="center-align col12">
-             <h4>RESEARCH & DISCOVERY STAGE</h4>
-             <p>We applied the fundamental principles of lean UX to work through the sprint and used the Double Diamond method to structure the process.</p>
-             <h6>COMPETITIVE ANALYSIS</h6>
-             <p>We began looking at some of Chippin’s competitors to get a broad understanding of the landscape, as well as specific insights into key players and their product features.</p>
-             <p>This included players in the traditional payments arena (payment gateways like Paypal), as well as in the shared transactions space (Splitit, Make it Social, etc)</p>
+          <div class="row">
+            <img src="./images/chippin-feedback-landing.png" class="responsive-img" alt="Chippin feedback landing page">
+          </div>
+
+          <div class="row">
+            <div class="col s12">
+              <img src="./images/chippin-feedback-dashboard.png" class="responsive-img" alt=" Chippin feedback landing page">
+              
             </div>
-           </div>
+          </div>
 
-             <div class="row">
-               <div class="col l6 m6 s6">
-                 <img src="./images/chippin-comp.png" alt="Chippin competitors" class="comp">
-               </div>
-               <div class="col l6 m6 s6">
-                 <p>Key insights from this exercise were:</p>
-                 <ul class="list-with-bullets">
-                   <li>Chippin’s proposition is unique in the marketplace — nobody else did exactly what Chippin was doing</li>
-                   <li>Competitor business models include fundraising, payment gateways and bill splitting</li>
-                   <li>Most competitors needed customer login — the fact that Chippin didn’t was a massive plus for Chippin users</li>
-                 </ul>
-                </div>
-              </div>
+          <div class="row">
 
-            <div class="row">
-              <h6>CONTEXTUAL USER RESEARCH</h6>
-              <p>Once a user (the “Instigator”) clicked on the Chippin option on the merchant’s checkout page, they were re-directed to the Chippin landing page where they went through 3 steps:</p>
-                <ul class="list-with-bullets">
-                  <li>Add Contributors (who also chip in towards the cost of the purchase)</li>
-                  <li>Pay their share</li>
-                  <li>Track contributions</li>
-                </ul>
-                <p>We began testing the current Chippin interface and user flow with many users particularly those who had experience of shared purchases. Most tended to be fairly young and tech-savvy.</p>
-              </div>
-
-            <div class="row">
-              <div class="col l6 m6 s6">
-                <img src="./images/chippin-user-icons.png" alt="Chippin user icons" class="user-icons">
-              </div>
-              <div class="user-comments col l6 m6 s6">
-                <h6>"I really wish I had this app every time I moved homes!"</h6>
-                <h6>"Every estate agents needs this app."</h6>
-              </div>
-            </div>
-
-            <div class="row">
-              <p>As highlighted above, most felt that Chippin was solving for a very real customer problem and had a lot going for it, including just a few steps to complete the process and a trusted Stripe payment gateway (for those who knew what Stripe was!).</p>
-              <p>Digging deeper into the level of detail for a first-time user, the interface design, and overall usability, we unearthed lots of inconsistencies and frustrations that were getting in the way of the user journey.</p>
-            </div>
-
-            <div class="row">
-              <img src="./images/chippin-feedback-landing.png" alt="Chippin feedback landing page">
-            </div>
-
-            <div class="row">
-              <img src="./images/chippin-feedback-dashboard.png" alt="Chippin feedback landing page">
-            </div>
-
-            <div class="row">
+            <div class="col s12">
               <h6>MAPPING THE CURRENT USER JOURNEY</h6>
               <p>Mapping out the current user journey on an Experience Map highlighted the various steps in the process and the highs and pain points along the way.</p>
               <p>An Experience Map captured this long arduous process perfectly.</p>
-                <img src="./images/chippin-current-experience-map.png" alt="Chippin experience map" class="exp-map">
+                <img src="./images/chippin-current-experience-map.png" alt="Chippin experience map" class="exp-map responsive-img">
               <p>The combination of contextual user testing, mapping out the user journey and detailed user interviews gave us lots of great insights into Chippin’s current state, and specific areas that we could prioritise and address in our design stage. These were:</p>
               <ul class="list-with-bullets">
                 <li>User Education — ensure that the website offer enough detail to educate the user on the product’s benefits and what happens in different scenarios</li>
@@ -179,244 +201,270 @@
                 <li>Website Layout — ensure that the various features, steps and details are laid out in the right way</li>
                 <li>Perception of Security — being fundamentally a payment option for an online purchase, the website needs to communicate this security and feeling of trust</li>
               </ul>
+              
             </div>
+          </div>
 
-            <div class="row">
-              <div class="col l6 m6 s6">
-                <img src="./images/chippin-user-research1.jpg" alt="Chippin user research pic 1">
-              </div>
-              <div class="col l6 m6 s6">
-                <img src="./images/chippin-user-research2.jpg" alt="Chippin user research pic 2">
-              </div>
+          <div class="row">
+            <div class="col l6 m6 s6">
+              <img src="./images/chippin-user-research1.jpg" class="responsive-img" alt="Chippin user research pic 1">
             </div>
+            <div class="col l6 m6 s6">
+              <img src="./images/chippin-user-research2.jpg" class="responsive-img" alt="Chippin user research pic 2">
+            </div>
+          </div>
 
-            <div class="row">
-              <div class="col l6 m6 s6">
-                <img src="./images/chippin-user-research3.jpg" alt="Chippin user research pic 3">
-              </div>
-              <div class="col l6 m6 s6">
-                <img src="./images/chippin-user-research4.jpg" alt="Chippin user research pic 4">
-              </div>
+          <div class="row">
+            <div class="col l6 m6 s6">
+              <img src="./images/chippin-user-research3.jpg" class="responsive-img" alt="Chippin user research pic 3">
             </div>
+            <div class="col l6 m6 s6">
+              <img src="./images/chippin-user-research4.jpg" class="responsive-img" alt="Chippin user research pic 4">
+            </div>
+          </div>
 
+          </div>
+       </div>
+
+       <div class="define">
+         <div class="container">
+           <div class="row">
+             <div class="center-align col l12 s12">
+               <h4>DEFINING & IDEATING</h4>
+               <h6>PERSONAS</h6>
+               <p>Using the user research, we created 2 user personas that incorporated our user interview findings and reflected our interviewees’ goals and frustrations.</p>
+               <img src="./images/chippin-personas.png" alt="Chippin personas" class="responsive-img">
+               <p>We felt that looking at the user flow primarily from the instigator’s point of view would enable us to more comprehensively cover the Chippin journey and for this reason we decided to focus on Christina.</p>
+               <p>As Christina’s persona was drawn from actual user research, it enabled our team to ensure that all design decisions were were user-centric.</p>
+             </div>
+           </div>
+
+           <div class="col s12">
+             <div class="row">
+               <h6>CHRISTINA'S SCENARIO :</h6>
+               <p>It was now time to establish a scenario for Christina that we would design the solution for and test against in our usability testing phase.</p>
+               <div class="user-quotes">
+                 <h6>Christina’s best friend Michelle is moving to Australia and she is buying her a beautiful handbag from Fairfax & Favor as a farewell present with three other friends: Maya, Jane and Tony. At the merchant checkout, she notices the Chippin option for splitting the transaction cost online and clicks on this.</h6>
+               </div>
             </div>
+             
+           </div>
+
+          </div>
          </div>
 
-         <div class="row define">
-           <div class="container">
-             <div class="row">
-               <div class="center-align col l12">
-                 <h4>DEFINING & IDEATING</h4>
-                 <h6>PERSONAS</h6>
-                 <p>Using the user research, we created 2 user personas that incorporated our user interview findings and reflected our interviewees’ goals and frustrations.</p>
-                 <img src="./images/chippin-personas.png" alt="Chippin personas">
-                 <p>We felt that looking at the user flow primarily from the instigator’s point of view would enable us to more comprehensively cover the Chippin journey and for this reason we decided to focus on Christina.</p>
-                 <p>As Christina’s persona was drawn from actual user research, it enabled our team to ensure that all design decisions were were user-centric.</p>
-               </div>
+       <div class="develop">
+         <div class="container">
+           <div class="row">
+             <div class="center-align col l12 s12">
+               <h4>DEVELOPING THE SOLUTION</h4>
+               <h6>IDEATION - DESIGN STUDIO</h6>
+               <p>We kicked off the design development phase with a design studio that we ran with the Chippin founding team.</p>
+               <p>The objective of this exhaustive session was to find ways to build user education & trust.</p>
+             
+               <img src="./images/chippin-design-studio.jpg" alt="Chippin design studio" class="design-studio">
+     
+               <p>With a clear problem to solve, the rapid group brainstorming session generated lots of quick and interesting ideas on screen formats and ways to educate and reassure the user.</p>
+
+               <h6>DESIGN ITERATIONS - PAPER PROTOTYPES</h6>
+               <p>We generated lots of paper prototypes on screen formats that had varying levels of information and detail.</p>
+               <p>We tried to find the right balance between having a simple and stripped-back layout (which users equated to secure payments) vs screens with more comprehensive information (which users also asked for as this was a new product with many what-if scenarios on timing and contributors).</p>
+               <p>Not arriving at a consensus, we did what we always do — ASK THE USERS.</p>
+               <p>We A/B/C tested the prototypes with around 7–8 users and analysed the findings.</p>
              </div>
 
-               <div class="row">
-                 <h6>CHRISTINA'S SCENARIO :</h6>
-                 <p>It was now time to establish a scenario for Christina that we would design the solution for and test against in our usability testing phase.</p>
-                 <div class="user-quotes">
-                   <h6>Christina’s best friend Michelle is moving to Australia and she is buying her a beautiful handbag from Fairfax & Favor as a farewell present with three other friends: Maya, Jane and Tony. At the merchant checkout, she notices the Chippin option for splitting the transaction cost online and clicks on this.</h6>
-                 </div>
-              </div>
+
+            <div class="row">
+               <div class="col l10 offset-l1 s12">
+                 <img src="./images/chippin-paper1.png" alt="Chippin paper prototype 1" class="paper1 responsive-img">
+               </div>
             </div>
-           </div>
-
-         <div class="row develop">
-           <div class="container">
-             <div class="row">
-               <div class="center-align col l12">
-                 <h4>DEVELOPING THE SOLUTION</h4>
-                 <h6>IDEATION - DESIGN STUDIO</h6>
-                 <p>We kicked off the design development phase with a design studio that we ran with the Chippin founding team.</p>
-                 <p>The objective of this exhaustive session was to find ways to build user education & trust.</p>
-                 <div class="center-align col12">
-                   <img src="./images/chippin-design-studio.jpg" alt="Chippin design studio" class="design-studio">
-                 </div>
-                 <p>With a clear problem to solve, the rapid group brainstorming session generated lots of quick and interesting ideas on screen formats and ways to educate and reassure the user.</p>
-
-                 <h6>DESIGN ITERATIONS - PAPER PROTOTYPES</h6>
-                 <p>We generated lots of paper prototypes on screen formats that had varying levels of information and detail.</p>
-                 <p>We tried to find the right balance between having a simple and stripped-back layout (which users equated to secure payments) vs screens with more comprehensive information (which users also asked for as this was a new product with many what-if scenarios on timing and contributors).</p>
-                 <p>Not arriving at a consensus, we did what we always do — ASK THE USERS.</p>
-                 <p>We A/B/C tested the prototypes with around 7–8 users and analysed the findings.</p>
+            <div class="row">
+               <div class="col l10 offset-l1 s12">
+                 <img src="./images/chippin-paper2.png" alt="Chippin paper prototype 2" class="paper2 responsive-img">
                </div>
-
-
-              <div class="row">
-                 <div class="col l10 offset-l1">
-                   <img src="./images/chippin-paper1.png" alt="Chippin paper prototype 1" class="paper1">
-                 </div>
-              </div>
-              <div class="row">
-                 <div class="col l10 offset-l1">
-                   <img src="./images/chippin-paper2.png" alt="Chippin paper prototype 2" class="paper2">
-                 </div>
+             </div>
+            <div class="row">
+               <div class="col l10 offset-l1">
+                 <img src="./images/chippin-paper3.png" alt="Chippin paper prototype 3" class="paper3">
                </div>
-              <div class="row">
-                 <div class="col l10 offset-l1">
-                   <img src="./images/chippin-paper3.png" alt="Chippin paper prototype 3" class="paper3">
-                 </div>
-              </div>
-                 <p>While many users liked the format A for its simplicity, they felt there was a lot of detail still missing around product information, time limits on raising contributions and payments.</p>
-                 <p>Format C was comprehensive and engaging but had too many steps, while format B was confusing in its page layout.</p>
-                 <p>We incorporated the feedback from these tests to arrive at the right screen formats as we moved to the digital prototyping stage.</p>
-               </div>
+            </div>
+               <p>While many users liked the format A for its simplicity, they felt there was a lot of detail still missing around product information, time limits on raising contributions and payments.</p>
+               <p>Format C was comprehensive and engaging but had too many steps, while format B was confusing in its page layout.</p>
+               <p>We incorporated the feedback from these tests to arrive at the right screen formats as we moved to the digital prototyping stage.</p>
+             </div>
 
-                 <h6>DESIGN ITERATIONS - DIGITAL PROTOTYPING</h6>
-                 <p>As a result of all the research, prototyping, testing and iterations, we broke the user into 4 specific screen designs. For each of these, we moved through various iterations while upping the fidelity and testing constantly.</p>
+               <h6>DESIGN ITERATIONS - DIGITAL PROTOTYPING</h6>
+               <p>As a result of all the research, prototyping, testing and iterations, we broke the user into 4 specific screen designs. For each of these, we moved through various iterations while upping the fidelity and testing constantly.</p>
 
 
-          <div class="row iterations">
-            <div class="col l10 offset-l1">
-              <h5>SCREEN 1 - WELCOME / LANDING PAGE</h5>
+        <div class="row iterations">
+          <div class="col l10 offset-l1">
+            <h5>SCREEN 1 - WELCOME / LANDING PAGE</h5>
+            <h6>Iteration 1</h6>
+            <img src="./images/chippin-welcome1.png" alt="Chippin welcome screen iteration1">
+          </div>
+
+          <div class="col l10 offset-l1">
+            <h6>Iteration 2</h6>
+            <img src="./images/chippin-welcome2.png" alt="Chippin welcome screen iteration2">
+          </div>
+
+          <div class="col l10 offset-l1">
+            <h6>Iteration 3</h6>
+            <img src="./images/chippin-welcome3.png" alt="Chippin welcome screen iteration3">
+          </div>
+
+          <div class="col l10 offset-l1">
+              <h5>SCREEN 2 - ADD CONTRIBUTORS PAGE</h5>
               <h6>Iteration 1</h6>
-              <img src="./images/chippin-welcome1.png" alt="Chippin welcome screen iteration1">
-            </div>
+              <img src="./images/chippin-contributor1.png" alt="Chippin contributor screen iteration1">
+          </div>
 
-            <div class="col l10 offset-l1">
-              <h6>Iteration 2</h6>
-              <img src="./images/chippin-welcome2.png" alt="Chippin welcome screen iteration2">
-            </div>
+          <div class="col l10 offset-l1">
+            <h6>Iteration 2</h6>
+            <img src="./images/chippin-contributor2.png" alt="Chippin contributor screen iteration2">
+          </div>
 
-            <div class="col l10 offset-l1">
-              <h6>Iteration 3</h6>
-              <img src="./images/chippin-welcome3.png" alt="Chippin welcome screen iteration3">
-            </div>
+          <div class="col l10 offset-l1">
+            <h6>Iteration 3</h6>
+            <img src="./images/chippin-contributor3.png" alt="Chippin contributor screen iteration3">
+          </div>
 
-            <div class="col l10 offset-l1">
-                <h5>SCREEN 2 - ADD CONTRIBUTORS PAGE</h5>
-                <h6>Iteration 1</h6>
-                <img src="./images/chippin-contributor1.png" alt="Chippin contributor screen iteration1">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h6>Iteration 2</h6>
-              <img src="./images/chippin-contributor2.png" alt="Chippin contributor screen iteration2">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h6>Iteration 3</h6>
-              <img src="./images/chippin-contributor3.png" alt="Chippin contributor screen iteration3">
-            </div>
-
-            <div class="col l10 offset-l1">
-                <h5>SCREEN 3 - PAYMENTS PAGE</h5>
-                <h6>Iteration 1</h6>
-                <img src="./images/chippin-payment1.png" alt="Chippin payment screen iteration1">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h6>Iteration 2</h6>
-            <img src="./images/chippin-payment2.png" alt="Chippin payment screen iteration2">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h6>Iteration 3</h6>
-            <img src="./images/chippin-payment3.png" alt="Chippin payment screen iteration3">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h5>SCREEN 4 - DASHBOARD PAGE</h5>
+          <div class="col l10 offset-l1">
+              <h5>SCREEN 3 - PAYMENTS PAGE</h5>
               <h6>Iteration 1</h6>
-              <img src="./images/chippin-dashboard1.png" alt="Chippin dashboard screen iteration1">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h6>Iteration 2</h6>
-            <img src="./images/chippin-dashboard2.png" alt="Chippin dashboard screen iteration2">
-            </div>
-
-            <div class="col l10 offset-l1">
-              <h6>Iteration 3</h6>
-            <img src="./images/chippin-dashboard3.png" alt="Chippin dashboard screen iteration3">
-            </div>
+              <img src="./images/chippin-payment1.png" alt="Chippin payment screen iteration1">
           </div>
 
-          <div class="row">
-            <div class="center-align col l12">
-            <h6>EXTRA, EXTRA</h6>
-              <p>By this stage, the user feedback had gotten vastly better, and was so positive that I felt we could push the boat out a little further in the design sprint by:</p>
-              <ul class="list-with-bullets">
-                <li>Reviewing the designs at the secondary persona user flow (the Contributor)</li>
-                <li>Re-designing the content of the emails sent to the instigator and contributors to ensure these were consistent with the new designs.</li>
-              </ul>
+          <div class="col l10 offset-l1">
+            <h6>Iteration 2</h6>
+          <img src="./images/chippin-payment2.png" alt="Chippin payment screen iteration2">
           </div>
-         </div>
-         </div>
-         </div>
 
-         <div class="row conclusion">
-           <div class="container conclusion">
-             <div class="row">
-               <div class="center-align col l12">
-                 <h4>REFLECTIONS</h4>
-                 <p>Both the user feedback through the project, and the feedback from the Chippin management team on the re-design project has been wonderful, and extremely rewarding.</p>
-                 <p>Working within the constraints of a 2 week design sprint, we we achieved the objectives of the project brief, and more.</p>
-                 <p>We presented our designs and workflows to the Chippin CEO, CTO and COO, and their feedback was incredibly positive. The Chippin team is now in the process of implementing our designs.</p>
-                 <h6>"You have all clearly put so much time, thought, energy and, dare I say it, love and passion into helping to move Chippin onto the next level in terms of UX/ UI, and we massively appreciate it."</h6>
-                 <h6>— Toby Rhodes, Chippin COO</h6>
-               </div>
-            </div>
-            </div>
-           </div>
-
-           <div class="row">
-             <div class="container">
-             <h6>IF WE HAD MORE TIME....</h6>
-               <p>Given more time, and based on user feedback through the course of the project, there are additional areas we could have explored:</p>
-               <img src="./images/chippin-next-steps.png" alt="Chippin next steps">
-            </div>
-            </div>
-      </section>
-
-      <section class="cs-other">
-        <div class="container">
-          <div class="row">
-            <div class="center-align col l12">
-              <h4>OTHER PROJECTS</h4>
-            </div>
+          <div class="col l10 offset-l1">
+            <h6>Iteration 3</h6>
+          <img src="./images/chippin-payment3.png" alt="Chippin payment screen iteration3">
           </div>
-          <div class="row">
 
-            <div class="col l6 m4 s4">
-              <a href="case_study_kf.html">
-                <h6>Knight Frank  |  New Tenancy Process App</h6>
-               </a>
-              <a href="case_study_kf.html">
-                <img src="./images/kf-hero-image1.png" alt="Knight Frank hi-fi prototype" class="col l12">
-               </a>
-            </div>
-
-            <div class="col l6 m4 s4">
-              <a href="case_study_fc.html">
-              <h6>Friend City  |  A new way to find friends</h6>
-              </a>
-              <a href="case_study_fc.html">
-              <img src="./images/fc-hero-image-trans1.png" alt="Friend City hi-fi prototype" class="col l12">
-              </a>
-            </div>
-
-            </div>
+          <div class="col l10 offset-l1">
+            <h5>SCREEN 4 - DASHBOARD PAGE</h5>
+            <h6>Iteration 1</h6>
+            <img src="./images/chippin-dashboard1.png" alt="Chippin dashboard screen iteration1">
           </div>
-      </section>
 
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="row social-links">
-              <div class="col l4 offset-l4 center-align">
-                <a href="https://twitter.com/rao_mee"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/meera-rao/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                <a href="https://medium.com/@mee_rao"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-              </div>
-              </div>
+          <div class="col l10 offset-l1">
+            <h6>Iteration 2</h6>
+          <img src="./images/chippin-dashboard2.png" alt="Chippin dashboard screen iteration2">
+          </div>
+
+          <div class="col l10 offset-l1">
+            <h6>Iteration 3</h6>
+          <img src="./images/chippin-dashboard3.png" alt="Chippin dashboard screen iteration3">
           </div>
         </div>
-      </footer>
-     </main>
 
-     </html>
+        <div class="row">
+          <div class="center-align col l12">
+          <h6>EXTRA, EXTRA</h6>
+            <p>By this stage, the user feedback had gotten vastly better, and was so positive that I felt we could push the boat out a little further in the design sprint by:</p>
+            <ul class="list-with-bullets">
+              <li>Reviewing the designs at the secondary persona user flow (the Contributor)</li>
+              <li>Re-designing the content of the emails sent to the instigator and contributors to ensure these were consistent with the new designs.</li>
+            </ul>
+        </div>
+       </div>
+       </div>
+       </div>
+
+       <div class="row conclusion">
+         <div class="container conclusion">
+           <div class="row">
+             <div class="center-align col l12 s12">
+               <h4>REFLECTIONS</h4>
+               <p>Both the user feedback through the project, and the feedback from the Chippin management team on the re-design project has been wonderful, and extremely rewarding.</p>
+               <p>Working within the constraints of a 2 week design sprint, we we achieved the objectives of the project brief, and more.</p>
+               <p>We presented our designs and workflows to the Chippin CEO, CTO and COO, and their feedback was incredibly positive. The Chippin team is now in the process of implementing our designs.</p>
+               <h6>"You have all clearly put so much time, thought, energy and, dare I say it, love and passion into helping to move Chippin onto the next level in terms of UX/ UI, and we massively appreciate it."</h6>
+               <h6>— Toby Rhodes, Chippin COO</h6>
+             </div>
+          </div>
+          </div>
+         </div>
+
+         <div class="row">
+           <div class="container">
+           <h6>IF WE HAD MORE TIME....</h6>
+             <p>Given more time, and based on user feedback through the course of the project, there are additional areas we could have explored:</p>
+             <img src="./images/chippin-next-steps.png" alt="Chippin next steps" class="responsive-img">
+          </div>
+        </div>
+</section>
+
+<section class="cs-other">
+    <div class="container">
+      <div class="row">
+        <div class="center-align col l12 s12">
+          <h4>OTHER PROJECTS</h4>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col l6 s6">
+          <a href="case_study_kf.html">
+            <h6>Knight Frank  |  New Tenancy Process App</h6>
+           </a>
+          <a href="case_study_kf.html">
+            <img class="responsive-img" src="./images/kf-hero-image1.png" alt="Knight Frank hi-fi prototype" class="col l12">
+           </a>
+        </div>
+
+        <div class="col l6 s6">
+          <a href="case_study_fc.html">
+          <h6>Friend City  |  A new way to find friends</h6>
+          </a>
+          <a href="case_study_fc.html">
+          <img class="responsive-img" src="./images/fc-hero-image-trans1.png" alt="Friend City hi-fi prototype" class="col l12">
+          </a>
+        </div>
+
+        </div>
+      </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row center">
+        <div class="col s12">
+          <ul class="social-links">
+            <li>
+              <a href="https://twitter.com/rao_mee">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/meera-rao/">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://medium.com/@mee_rao">
+                <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+          
+      </div>
+    </div>
+  </footer>
+
+  
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="script/materialize.js"></script>
+  <script src="script/init.js"></script>
+</body>
+</html>
