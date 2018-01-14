@@ -168,8 +168,17 @@ nav {
   @media only screen and (min-width: 993px) {
     .section#projects .project {
       margin-top: 100px 0; } }
+
+  @media only screen and (max-width: 992px) {
   .section#projects .project-description{
     padding: 1% 0 11% 0; }
+    }
+
+  @media only screen and (min-width: 993px) {
+    .section#projects .project-description{
+      padding: 11% 0 1% 0; }
+      }
+
   .section#projects .project-item {
     padding: 11% 0 1% 0;
   }
@@ -187,9 +196,16 @@ nav {
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
+
     @media only screen and (max-width: 992px) {
-      .section#about .card {
-        padding-top: 0; } }
+      .section#projects .container {
+        border-bottom: 2px solid #FACC2E } }
+
+    @media only screen and (min-width: 993px) {
+      .section#projects .container {
+        border-bottom: 2px solid #FACC2E }
+        }
+
     @media only screen and (min-width: 993px) {
       .section#about .card > .row {
         display: -webkit-box;
@@ -198,7 +214,8 @@ nav {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        margin-bottom: 50px; }
+        margin-bottom: 60px;
+        padding-top: 60px;}
         }
     .section#about .card-image {
       height: 100%;
