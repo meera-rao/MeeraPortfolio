@@ -13,7 +13,7 @@
     });
 
     $('#navigation').pushpin({
-      top: $('#navigation').offset().top 
+      top: $('#navigation').offset().top
     });
 
     $("#intro-banner nav ul a").on("click", function(){
@@ -26,7 +26,7 @@
       var windowHeight = $(window).height();
       var topScroll = $(window).scrollTop()- windowHeight;
       if(topScroll >= 0){
-        console.log("addingWhite")
+      
         $(".nav-wrapper").addClass("white");
       } else if( topScroll < 0){
         $(".nav-wrapper").removeClass("white");
