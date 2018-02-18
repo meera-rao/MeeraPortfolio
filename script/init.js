@@ -26,7 +26,7 @@
       var windowHeight = $(window).height();
       var topScroll = $(window).scrollTop()- windowHeight;
       if(topScroll >= 0){
-      
+
         $(".nav-wrapper").addClass("white");
       } else if( topScroll < 0){
         $(".nav-wrapper").removeClass("white");
